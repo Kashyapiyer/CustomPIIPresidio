@@ -8,6 +8,13 @@
 * Supports exclusion of a list of financial entities while detecting the PII information
 * Supports selection and non-selection of anonymization while formulating the results
 
+```
+"targetlist" : ["314b", "AML", "SAR", "FIU", "SSN", "KYC", "EFE", "call out", "Fedline", "FINRA", "finra", "31", "BSA", "CTR", "SAR", "FinCEN"],
+"score_threshold": Defaults to 0.2
+"language": "en"
+"doanonymize": false (Defaults to True if None observed at the config)
+```
+
 
 
 ## References:
