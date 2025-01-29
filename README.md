@@ -4,9 +4,17 @@
 ## Features Custom PII detector using Presidio 
 
 * Considers a config-driven approach for the dynamic selection of key parameters
-* Exclusion of list of financial entities while detecting the PII information
-* Supports selection and Non selection of anonymization
+* Generic list for Exclusion of entities while detecting PII 
+* Supports exclusion of a list of financial entities while detecting the PII information
+* Supports selection and non-selection of anonymization while formulating the results
 
+```
+Config structure
+"targetlist" : ["314b", "AML", "SAR", "FIU", "SSN", "KYC", "EFE", "call out", "Fedline", "FINRA", "finra", "31", "BSA", "CTR", "SAR", "FinCEN"],
+"score_threshold": 0.2, 
+"language":"en",
+"doanonymize": false
+```
 
 References:
 
