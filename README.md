@@ -1,9 +1,11 @@
+**This code is solemly developed using personal colab resources **
+
+
 ## Features Custom PII detector using Presidio 
 
-
-
-
-
+* Considers a config-driven approach for the dynamic selection of key parameters
+* Exclusion of list of financial entities while detecting the PII information
+* Supports selection and Non selection of anonymization
 
 
 References:
