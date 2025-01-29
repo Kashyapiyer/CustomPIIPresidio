@@ -1,22 +1,16 @@
 **This code is solemly developed using personal colab resources **
 
 
-## Features Custom PII detector using Presidio 
+# Features Custom PII detector using Presidio 
 
 * Considers a config-driven approach for the dynamic selection of key parameters
 * Generic list for Exclusion of entities while detecting PII 
 * Supports exclusion of a list of financial entities while detecting the PII information
 * Supports selection and non-selection of anonymization while formulating the results
 
-```
-Config structure
-"targetlist" : ["314b", "AML", "SAR", "FIU", "SSN", "KYC", "EFE", "call out", "Fedline", "FINRA", "finra", "31", "BSA", "CTR", "SAR", "FinCEN"],
-"score_threshold": 0.2, 
-"language":"en",
-"doanonymize": false
-```
 
-References:
+
+## References:
 
 1) Caroline Valetkevitch, Reuters, Nasdaq leads Wall St higher; tech shares recover from Monday's sell-off https://finance.yahoo.com/news/p-nasdaq-futures-regain-ground-103024570.html
 
